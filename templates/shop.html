@@ -1,0 +1,9 @@
+<!doctype html>
+<html> 
+<a href="/home">go home</a>
+{%for i in items}
+<form method="get">
+<a href="/item" name="item">{{i}}</a>
+</form>
+{%endfor%}
+</html>
